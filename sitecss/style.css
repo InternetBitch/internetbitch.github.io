@@ -1,0 +1,126 @@
+
+html,
+body,
+.view {
+font-family: 'Cinzel Decorative', cursive;
+margin: 0px;
+font-size: 15px;
+    height: 100%;
+}  
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+background-color: transparent;
+    font-size: 15px;
+}
+        
+.scrolling-navbar {
+-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+.top-nav-collapse {
+background-color: #4CAF50;
+}      
+footer.page-footer {
+margin-top: -1px;
+}   
+@media only screen and (max-width: 768px) {
+background-color: #37474F;
+}
+}       
+.flex-center {
+color: #fff;
+}    
+.view {
+background: url("/img/main-background.png")no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.plans1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.second {
+font-family: 'Josefin Sans', sans-serif;
+margin: 0px;
+background-color: white!important;
+}
+.second h2 {
+	text-align: center;
+	padding-top: 75px;
+	font-size: 40px;
+}
+.features {
+	margin-top: 75px;
+    margin-bottom: 75px;
+}
+.minecraft h3 {
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	
+}
+.plan .card-content{
+    padding: 0px;
+}
+
+.plan .card-title{
+    font-size: 2.5em;
+    padding: 20px !important;
+    border-left: 10px #fff solid;
+    margin-bottom: 20px !important;
+}
+
+.plan .price{
+    text-align: center;
+    padding: 20px;
+}
+
+.plan .price p:first-of-type{
+    font-size: 1.25em;
+}
+
+.plan .price p:last-of-type{
+    font-size: 4em;
+}
+
+.plan .price p:last-of-type small{
+    font-size: 0.5em;
+}
+
+.plan table{
+    width: 100%;
+}
+
+.plan table tr{
+    border-bottom: 1px #ecf0f1 solid;
+    text-align: center;
+}
+
+.plan table tr td{
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.plan .card-action{
+    text-align: center;
+}
+
+
+.plans1 {
+	background-color: #37474F;
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+	padding-bottom: 50px;
+}
+.services {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-size: 40px;
+    color: white;
+}
