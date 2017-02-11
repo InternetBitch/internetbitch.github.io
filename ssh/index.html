@@ -21,6 +21,32 @@
                 padding-top: 70px;
             }
     </style>
+    <script language="JavaScript">
+<!--
+function resize_iframe()
+{
+
+	var height=window.innerWidth;//Firefox
+	if (document.body.clientHeight)
+	{
+		height=document.body.clientHeight;//IE
+	}
+	//resize the iframe according to the size of the
+	//window (all these should be on the same line)
+	document.getElementById("ssh").style.height=parseInt(height-
+	document.getElementById("ssh").offsetTop-8)+"px";
+}
+
+// this will resize the iframe every
+// time you change the size of the window.
+window.onresize=resize_iframe; 
+
+//Instead of using this you can use: 
+//	<BODY onresize="resize_iframe()">
+
+
+//-->
+</script>
 </head>
 
 <body>
@@ -50,7 +76,7 @@
     <!-- Page Content -->
     <div class="container">
         <div class="row">
-            <iframe width="0" frameborder="0"  src="https://webssh.bartlweb.net/">Sorry, your browser does not support iFRAMES</iframe>
+            <iframe id="ssh" width="100%" onload="resize_iframe()"src="https://webssh.bartlweb.net/">Sorry, your browser does not support iFRAMES</iframe>
         </div>
     </div>
 
